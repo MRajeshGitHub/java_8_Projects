@@ -8,7 +8,7 @@ public class AddtionWithLamda {
 
 	public static void main(String[] args) {
 		
-		Add a=(x,y)->x+y;
+		Add a=(x,y)->x+y;//lamda logic for addtion
 		System.out.println("Addtion using lamda :"+a.add(11, 78));
 	}
 }

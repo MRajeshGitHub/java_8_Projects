@@ -28,6 +28,8 @@ class M{
 		System.out.println("===============");
 		Predicate<Integer> p1=(i)->i>20;
 		System.out.println(p1.test(11));
+		System.out.println(p1.test(44));
+		System.out.println(p1.test(14));
 		
 		
 		

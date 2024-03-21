@@ -30,6 +30,7 @@ class M{
 		System.out.println(p1.test(11));
 		System.out.println(p1.test(44));
 		System.out.println(p1.test(14));
+		//System.out.println(p1.test(true));//return error
 		
 		
 		

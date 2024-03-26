@@ -13,6 +13,17 @@ public class StringLength {
 		System.out.println(p.test("Rajesh"));
 		System.out.println(p.test("sam"));
 		System.out.println(p.test("Ajay"));
+		
+		String [] names= {"Anushka","Anjali","Kajol","Rani","Dipika"};
+		
+		for(String name:names) {
+			//if(p.test(name))
+			//	System.out.println(name);
+		if(name.length()>6)
+			System.out.println(name);
+		
+	
+	}
 	}
 
 }
